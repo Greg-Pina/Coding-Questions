@@ -4,6 +4,11 @@ Question link: https://leetcode.com/problems/binary-tree-postorder-traversal/des
 */
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
+        /*Algorithm: 
+            Create a list to store the node's data in
+            Call a recursive function to place data into list in postorder
+            Return the list
+        */
         List<Integer> toReturn = new ArrayList<>();
         addValuesToList(root, toReturn);
         return toReturn;
