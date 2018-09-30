@@ -7,8 +7,7 @@ Question link: https://leetcode.com/problems/jewels-and-stones/description/
 */
 class Solution {
     public int solution(String J, String S) {
-        /*
-        Algorithm: 
+        /*Algorithm: 
             Convert J to character array for easier searching
             Go through each character of S checking if it's a character of J array
             If character of S is character of J array, count++
