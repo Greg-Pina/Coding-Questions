@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 
 /* 
-Given a string S consisting of N characters and an integer K. S is composed of alphanumerical characters and/or dashes. 
+Question: Given a string S consisting of N characters and an integer K. S is composed of alphanumerical characters and/or dashes. 
 The dashes split the alphanumerical characters within S into groups (i.e. if there are M dashes, the string is split into M+1 groups).
 The dashes in S are possibly misplaced.
 We want each group of characters to be of length K (except for possibly the first group, which could be shorter, 
@@ -13,6 +13,7 @@ all the lower case letters in S must be converted to upper case.
 For example, in the license key "2-4A0r7-4k" there are two dashes which split it into three groups of lengths 1, 5 and 2, 
 respectively. If we want each group to be of length 4, then we would have to reinsert the dashes. Thus, for K = 4, 
 the correctly formatted string is "24A0-R74K".
+Question link: https://leetcode.com/problems/license-key-formatting/description/
 */
 class Solution {
     public String solution(String S, int K) {
