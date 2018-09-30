@@ -9,6 +9,7 @@ A = ‘abcd’
 B = ‘cdabcdab’
 The function should return 3 because after stating A 3 times, getting ‘abcdabcdabcd’, B is now a substring of A.
 You can assume that n and m are integers in the range [1, 1000]. 
+<br>
 Question link: https://www.geeksforgeeks.org/google-interview-experience-set-7-software-engineering-intern/
 
 <h3>License_Key_Formatting.java</h3>
@@ -21,6 +22,7 @@ all the lower case letters in S must be converted to upper case.
 For example, in the license key "2-4A0r7-4k" there are two dashes which split it into three groups of lengths 1, 5 and 2, 
 respectively. If we want each group to be of length 4, then we would have to reinsert the dashes. Thus, for K = 4, 
 the correctly formatted string is "24A0-R74K".
+<br>
 Question link: https://leetcode.com/problems/license-key-formatting/description/
 Issue: Code is not efficient - passes 34/38 test cases
 
@@ -29,6 +31,7 @@ Question: You're given strings J representing the types of stones that are jewel
 Each character in S is a type of stone you have. You want to know how many of the stones you have are also jewels.
 The letters in J are guaranteed distinct, and all characters in J and S are letters. 
 Letters are case sensitive, so 'a' is considered a different type of stone from 'A'.
+<br>
 Question link: https://leetcode.com/problems/jewels-and-stones/description/
 
 <h3>Merge_Trees.java</h3>
@@ -36,8 +39,10 @@ Question: Given two binary trees and imagine that when you put one of them to co
 are overlapped while the others are not. You need to merge them into a new binary tree. 
 The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node.
 Otherwise, the NOT null node will be used as the node of new tree.
+<br>
 Question link: https://leetcode.com/problems/merge-two-binary-trees/description/
 
 <h3>Reverse_String.java</h3>
 Question: Write a function that takes a string as input and returns the string reversed.
+<br>
 Question link: https://leetcode.com/problems/reverse-string/description/
