@@ -50,6 +50,9 @@ class Solution {
 
         //Reverse the returned copy
         String toReturnCopy = new StringBuilder(toReturn).reverse().toString();
+        if (toReturnCopy.charAt(0) == '-') {
+            toReturnCopy = toReturnCopy.substring(1);
+        }
         //Uppercase the string
         toReturnCopy = toReturnCopy.toUpperCase();
         //Return the result
