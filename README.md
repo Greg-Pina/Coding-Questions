@@ -4,9 +4,11 @@
 Question: Given a string A consisting of n characters and a string B consisting of m characters, write a function that will 
 return the number of times A must be stated such that B is a substring of the repeated A. 
 If B can never be a substring, return -1.
+<br>
 Example:
 A = ‘abcd’
 B = ‘cdabcdab’
+<br>
 The function should return 3 because after stating A 3 times, getting ‘abcdabcdabcd’, B is now a substring of A.
 You can assume that n and m are integers in the range [1, 1000]. 
 <br>
@@ -19,11 +21,13 @@ The dashes in S are possibly misplaced.
 We want each group of characters to be of length K (except for possibly the first group, which could be shorter, 
 but still must contain at least one character). To satisfy this requirement, we will reinsert the dashes. Additionally, 
 all the lower case letters in S must be converted to upper case.
+<br>
 For example, in the license key "2-4A0r7-4k" there are two dashes which split it into three groups of lengths 1, 5 and 2, 
 respectively. If we want each group to be of length 4, then we would have to reinsert the dashes. Thus, for K = 4, 
 the correctly formatted string is "24A0-R74K".
 <br>
 Question link: https://leetcode.com/problems/license-key-formatting/description/
+<br>
 Issue: Code is not efficient - passes 34/38 test cases
 
 <h3>Jewels_and_Stones.java</h3>
