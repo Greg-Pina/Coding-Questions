@@ -28,9 +28,9 @@ class Solution {
         //Sum node values up as the new value of the merged node
         t1.val += t2.val;
         //Recursively check the left subtree
-        t1.left = mergeTrees(t1.left, t2.left); 
+        t1.left = solution(t1.left, t2.left); 
         //Recursively check the right subtree
-        t1.right = mergeTrees(t1.right, t2.right);
+        t1.right = solution(t1.right, t2.right);
         //Return the root of the updated tree
         return t1;
     }
