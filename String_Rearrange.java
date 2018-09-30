@@ -2,13 +2,27 @@ import java.lang.*;
 import java.io.*;
 import java.util.*;
 
+/* 
+Given a string S consisting of N characters and an integer K. S is composed of alphanumerical characters and/or dashes. 
+The dashes split the alphanumerical characters within S into groups (i.e. if there are M dashes, the string is split into M+1 groups).
+The dashes in S are possibly misplaced.
+We want each group of characters to be of length K (except for possibly the first group, which could be shorter, 
+but still must contain at least one character). To satisfy this requirement, we will reinsert the dashes. Additionally, 
+all the lower case letters in S must be converted to upper case.
+
+For example, in the license key "2-4A0r7-4k" there are two dashes which split it into three groups of lengths 1, 5 and 2, 
+respectively. If we want each group to be of length 4, then we would have to reinsert the dashes. Thus, for K = 4, 
+the correctly formatted string is "24A0-R74K".
+*/
 class Solution {
     public String solution(String S, int K) {
-        //Create a counter for iterating through the string to know when to append a '-'
-        //Iterate through a reversed copy of the string to deal with appending '-' at the beginning
-        //for groupings less than K
-        //Reverse the returned string to get the correct result
-        //Uppercase the string and return it
+        /*Algorithm: 
+            Create a counter for iterating through the string to know when to append a '-'
+            Iterate through a reversed copy of the string to deal with appending '-' at the beginning
+            for groupings less than K
+            Reverse the returned string to get the correct result
+            Uppercase the string and return it
+        */
 
         //Create a reversed copy of the string S
         String SCopy = new StringBuilder(S).reverse().toString();
