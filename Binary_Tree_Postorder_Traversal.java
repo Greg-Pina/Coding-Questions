@@ -3,7 +3,7 @@ Question: Given a binary tree, return the postorder traversal of its nodes' valu
 Question link: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
 */
 class Solution {
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> solution(TreeNode root) {
         /*Algorithm: 
             Create a list to store the node's data in
             Call a recursive function to place data into list in postorder
