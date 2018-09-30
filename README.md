@@ -22,9 +22,7 @@ For example, in the license key "2-4A0r7-4k" there are two dashes which split it
 respectively. If we want each group to be of length 4, then we would have to reinsert the dashes. Thus, for K = 4, 
 the correctly formatted string is "24A0-R74K".
 Question link: https://leetcode.com/problems/license-key-formatting/description/
-```
-- Issue: Code is not efficient - passes 34/38 test cases
-```
+Issue: Code is not efficient - passes 34/38 test cases
 
 <h3>Jewels_and_Stones.java</h3>
 Question: You're given strings J representing the types of stones that are jewels, and S representing the stones you have.
