@@ -13,15 +13,34 @@ You can assume that n and m are integers in the range [1, 1000]. */
 
 class Solution {
     public int solution(String A, String B) {
+        /*Algorithm: 
+            Search for A in B
+            if A does not exist in B, return -1
+            else
+            counter = 1 //for original substring
+            check length of characters to left and length of characters to right of substring A in B
+            if leftCharacters > length(A)
+            counter = leftCharacters / length(A)
+            else if leftCharacters < length(A) && leftCharacters != 0
+            counter++
+            if rightCharacters > length(A)
+            counter = rightCharacters / length(A)
+            else if rightCharacters < length(A) && rightCharacters != 0
+            counter++
+            return counter
+        */
+        
         //Search for subString A in B
         int end = B.indexOf(A);
         int ALength = A.length();
-        int counter = 0;
 
         //If subString not found, return -1
         if (end == -1) {
             return -1;
         }
+        
+        //Counter for original substring
+        int counter = 1;
 
         //If found, count characters to left of subString start
         String leftString = B.substring(0, end);
@@ -51,9 +70,6 @@ class Solution {
             int toAdd = foundRightCharacters / ALength;
             counter = counter + toAdd;
         }
-
-        //Counter++ for original substring
-        counter++;
 
         return counter;
     }
