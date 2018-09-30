@@ -1,7 +1,3 @@
-import java.lang.*;
-import java.io.*;
-import java.util.*;
-
 /* 
 Question: Given a string S consisting of N characters and an integer K. S is composed of alphanumerical characters and/or dashes. 
 The dashes split the alphanumerical characters within S into groups (i.e. if there are M dashes, the string is split into M+1 groups).
