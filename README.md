@@ -5,8 +5,6 @@ Question: You are given an array A representing heights of students. All the stu
 The students arrive by one, sequentially (as their heights appear in A). For the I-th student, if there is a row
 in which all the students are taller than A[i], the student will stand in one of such rows. If there is no such row,
 the student will create a new row. Your task is to find the minimum number of rows created.
-<br>
-Question link: Google interview question
 
 <h3>Substring_Repetition.java</h3>
 Question: Given a string A consisting of n characters and a string B consisting of m characters, write a function that will 
