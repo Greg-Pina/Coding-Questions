@@ -6,6 +6,17 @@ The students arrive by one, sequentially (as their heights appear in A). For the
 in which all the students are taller than A[i], the student will stand in one of such rows. If there is no such row,
 the student will create a new row. Your task is to find the minimum number of rows created.
 
+<h3>Shortest_Distance_House_Store.java</h3>
+Question: Given two int arrays containing coordinates of stores and houses, find the shortest distance store from each house.
+<br>
+Example:
+<br>
+stores = {1,5,11,17,20}
+<br>
+houses = {5,12,19}
+<br>
+Should return {5,11,20}
+
 <h3>Substring_Repetition.java</h3>
 Question: Given a string A consisting of n characters and a string B consisting of m characters, write a function that will 
 return the number of times A must be stated such that B is a substring of the repeated A. 
