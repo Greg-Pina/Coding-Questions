@@ -21,7 +21,7 @@ public class Solution {
         int storesLength = stores.length;
         int housesLength = houses.length;
 
-        for (int i = 0; i < houses.length; i++) {
+        for (int i = 0; i < housesLength; i++) {
             int currentHouse = houses[i];
             int shortestDistance = 999999;
             int toAdd = 0;
@@ -41,8 +41,8 @@ public class Solution {
             toStore.add(toAdd);
         }
 
-        int[] toReturn = new int[toStore.size()];
         int toStoreLength = toStore.size();
+        int[] toReturn = new int[toStoreLength];
         for (int i = 0; i < toStoreLength; i++) {
             toReturn[i] = toStore.get(i).intValue();
         }
