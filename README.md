@@ -72,3 +72,10 @@ Question link: https://leetcode.com/problems/merge-two-binary-trees/description/
 Question: Write a function that takes a string as input and returns the string reversed.
 <br>
 Question link: https://leetcode.com/problems/reverse-string/description/
+
+<h3>Smallest_Positive_Int.java</h3>
+Question: Given an array A of N integers, return the smallest positive integer that does not occur in A.
+For example, given A = [1, 3, 6, 4, 1, 2], the function should return 5.
+Given A = [1, 2, 3], the function should return 4.
+Given A = [−1, −3], the function should return 1.
+<br>
