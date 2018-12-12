@@ -1,4 +1,4 @@
-# Coding-Questions
+# Coding-Questions [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5d370745c9ed4d26a882dc70e3dd556e)](https://www.codacy.com/app/arkdevelop/Coding-Questions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arkdevelop/Coding-Questions&amp;utm_campaign=Badge_Grade)
 
 <h3>Student_Lineup.java</h3>
 Question: You are given an array A representing heights of students. All the students are asked to stand in rows.
