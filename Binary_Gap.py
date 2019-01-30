@@ -1,14 +1,13 @@
 def solution(N):
-    bin = format(N, "b")
+    binN = format(N, "b")
     curCount = 0
     count = 0
     iFound = 0
     
-    for i in bin:
+    for i in binN:
         if (iFound == 1 and i == "1"):
             if (count > curCount):
                 curCount = count
-            
             count = 0
             iFound = 0
         
@@ -20,4 +19,3 @@ def solution(N):
             count = count + 1
                 
     return curCount
-    pass
