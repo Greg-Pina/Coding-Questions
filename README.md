@@ -79,3 +79,6 @@ For example, given A = [1, 3, 6, 4, 1, 2], the function should return 5.
 Given A = [1, 2, 3], the function should return 4.
 Given A = [−1, −3], the function should return 1.
 <br>
+
+<h3>Binary_Gap.py</h3>
+Question: Find the largest binary gap (maximal sequence of consecutive zeros) within a positive integer N that is surrounded by ones on both sides.
